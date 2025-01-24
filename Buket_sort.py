@@ -8,7 +8,7 @@ def bucket_sort(arr):
 
     num_buckets = len(arr)
     
-    buckets = [[] for _ in range(num_buckets)]                               # buckets = []                                                                                                              
+    buckets = [[] for i in range(num_buckets)]                               # buckets = []                                                                                                              
     for num in arr:                                                          # for i in range(num_buckets):
         index = int((num - min_value) / range_value * (num_buckets - 1))        # buckets.append([])
         buckets[index].append(num)
