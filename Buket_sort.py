@@ -7,7 +7,7 @@ def bucket_sort(arr):
     range_value = max_value - min_value
 
     num_buckets = len(arr)
-    buckets = [[] for _ in range(num_buckets)]
+    buckets = [[] for i in range(num_buckets)]
 
     for num in arr:
         index = int((num - min_value) / range_value * (num_buckets - 1))
