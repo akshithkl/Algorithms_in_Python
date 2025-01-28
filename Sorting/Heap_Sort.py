@@ -37,8 +37,8 @@ def heap_sort(arr):
 
 
 # Example usage
-if __name__ == "__main__":
-    arr = [12, 11, 13, 5, 6, 7]
-    print("Original array:", arr)
-    sorted_array = heap_sort(arr)
-    print("Sorted array:", sorted_array)
+
+arr = [12, 11, 13, 5, 6, 7]
+print("Original array:", arr)
+sorted_array = heap_sort(arr)
+print("Sorted array:", sorted_array)
