@@ -33,3 +33,9 @@ print("Original array:", arr)
 
 radix_sort(arr)
 print("Sorted array:", arr)
+
+
+# Case	       Time Complexity	  Explanation
+# Best Case	    O(nk)	           n is the number of elements, k is the number of digits.
+# Average Case	O(nk)	           Uniform digit distribution results in consistent performance.
+# Worst Case	O(nk)	           Still linear, but depends on the number of digits.
