@@ -26,3 +26,11 @@ arr = [12, 34, 54, 2, 3, 7, 42, 3]
 print("Original array:", arr)
 sorted_array = shell_sort(arr)
 print("Sorted array:", sorted_array)
+
+# Case             Time Complexity       Explanation
+# Best Case        O(n)                   Occurs when the array is already nearly sorted.
+# Average Case     O(n log n) to O(n²)    Varies based on the gap sequence used.
+# Worst Case       O(n²)                  Happens with poor gap sequences or reverse-sorted arrays.
+
+# Space Complexity: O(1) (In-place sorting, requires minimal additional memory)
+
