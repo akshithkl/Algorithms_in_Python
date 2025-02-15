@@ -16,3 +16,6 @@ print(f"Sorted array: {Insertion_sort(arr)}")
 #Best Case	       O(n)	             Already sorted array, only one comparison per element.
 #Average Case	   O(n²)	         Comparisons and shifts increase quadratically with input size.
 #Worst Case	       O(n²)	         Reverse sorted array requires maximum shifts.
+
+
+# Insertion Sort:    O(1) (In-place sorting, requires only a few auxiliary variables)
