@@ -42,3 +42,8 @@ arr = [12, 11, 13, 5, 6, 7]
 print("Original array:", arr)
 sorted_array = heap_sort(arr)
 print("Sorted array:", sorted_array)
+
+#Case	         Time Complexity	Explanation
+#Best Case	      O(n log n)	     Heap construction and removal of elements.
+#Average Case	  O(n log n)	     Consistent due to heap property.
+#Worst Case	      O(n log n)	     All elements must be moved in and out of the heap.
