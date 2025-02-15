@@ -35,3 +35,8 @@ def merge_sort(arr):
 arr_test = [15, 5, 24, 8, 1, 3, 16, 10, 20]
 merge_sort(arr_test)
 print(arr_test)
+
+#Case	         Time Complexity	Explanation
+#Best Case	      O(n log n)	     Dividing the array and merging sorted halves.
+#Average Case	  O(n log n)	     Consistent due to the divide-and-conquer approach.
+#Worst Case	      O(n log n)	     Even in reverse order, complexity remains O(n log n).
