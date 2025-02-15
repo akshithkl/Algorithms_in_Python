@@ -27,3 +27,8 @@ arr = [10, 22, 98, 123, 1, 401]
 print("Original array:", arr)
 sorted_arr = bucket_sort(arr)
 print("Sorted array:", sorted_arr)
+
+#Case	           Time Complexity	  Explanation
+#Best Case	        O(n)	           Uniformly distributed data with few elements per bucket.
+#Average Case	    O(n + k)	       n for distributing and collecting, k for sorting each bucket.
+#Worst Case	        O(n²)	           All elements fall into the same bucket (inefficient sorting).
