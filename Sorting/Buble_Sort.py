@@ -13,3 +13,9 @@ List = [54,67,34,45,8,6,44]
 print("Original List :",List)
 
 print("Sorted List : ",Bubble_Sort(List))
+
+
+#Case	        Time Complexity	  Space Complexity
+#Best Case	    O(n)	           O(1)
+#Worst Case	    O(n²)	           O(1)
+#Average Case	O(n²)	           O(1)
