@@ -32,3 +32,5 @@ print("Sorted array:", sorted_arr)
 #Best Case	        O(n)	           Uniformly distributed data with few elements per bucket.
 #Average Case	    O(n + k)	       n for distributing and collecting, k for sorting each bucket.
 #Worst Case	        O(n²)	           All elements fall into the same bucket (inefficient sorting).
+
+#Bucket Sort:       O(n + k) (Uses arrays for buckets and temporary storage)
