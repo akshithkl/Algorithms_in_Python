@@ -25,3 +25,8 @@ def partition(arr, left, right):
 arr = [7, 6, 10, 5, 9, 2, 1, 15, 7]
 Quick_Sort(arr, 0, len(arr) - 1)
 print(arr)
+
+# Case	        Time Complexity	  Explanation
+# Best Case	     O(n log n)	       Balanced partitions; recursion tree is shallow.
+# Average Case	 O(n log n)	       Partitions are reasonably balanced.
+# Worst Case	 O(n²)	           Unbalanced partitions (e.g., already sorted array with poor pivot choice).
