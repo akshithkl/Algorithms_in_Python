@@ -39,3 +39,5 @@ print("Sorted array:", arr)
 # Best Case	    O(nk)	           n is the number of elements, k is the number of digits.
 # Average Case	O(nk)	           Uniform digit distribution results in consistent performance.
 # Worst Case	O(nk)	           Still linear, but depends on the number of digits.
+
+# Radix Sort:        O(n + k) (Due to temporary arrays for counting digits)
