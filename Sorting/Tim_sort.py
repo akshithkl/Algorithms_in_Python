@@ -65,3 +65,11 @@ arr = [5, 21, 1, 16, 20, 22]
 print("Original array:", arr)
 tim_sort(arr)
 print("Sorted array:", arr)
+
+# Case             Time Complexity      Explanation
+# Best Case        O(n)                 Occurs when the array is already sorted.
+# Average Case     O(n log n)           Consistently efficient for random datasets.
+# Worst Case       O(n log n)           Occurs for reverse-sorted or nearly reversed arrays.
+
+# Space Complexity: O(n) (Due to temporary arrays during merging)
+
