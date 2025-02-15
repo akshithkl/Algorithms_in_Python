@@ -47,3 +47,5 @@ print("Sorted array:", sorted_array)
 #Best Case	      O(n log n)	     Heap construction and removal of elements.
 #Average Case	  O(n log n)	     Consistent due to heap property.
 #Worst Case	      O(n log n)	     All elements must be moved in and out of the heap.
+
+# Heap Sort:         O(1) (In-place sorting, uses constant extra space)
