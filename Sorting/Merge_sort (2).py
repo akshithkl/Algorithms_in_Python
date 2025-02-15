@@ -40,3 +40,5 @@ print(arr_test)
 #Best Case	      O(n log n)	     Dividing the array and merging sorted halves.
 #Average Case	  O(n log n)	     Consistent due to the divide-and-conquer approach.
 #Worst Case	      O(n log n)	     Even in reverse order, complexity remains O(n log n).
+
+# Merge Sort:        O(n) (Requires temporary arrays for merging)
