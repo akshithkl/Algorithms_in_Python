@@ -30,3 +30,6 @@ print(arr)
 # Best Case	     O(n log n)	       Balanced partitions; recursion tree is shallow.
 # Average Case	 O(n log n)	       Partitions are reasonably balanced.
 # Worst Case	 O(n²)	           Unbalanced partitions (e.g., already sorted array with poor pivot choice).
+
+
+# Quick Sort:        O(log n) (Due to recursive call stack, in-place otherwise)
