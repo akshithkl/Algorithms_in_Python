@@ -20,3 +20,5 @@ print("Sorted List:", Sorted_List(List_1))
 # Best Case	      O(n²)	             Still O(n²), because comparisons happen in every case.
 # Average Case	  O(n²)	             Consistently quadratic due to nested loops.
 # Worst Case	  O(n²)	             Occurs when elements are in reverse order.
+
+# Selection Sort:    O(1) (In-place sorting, requires only a few auxiliary variables)
