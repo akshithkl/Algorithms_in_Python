@@ -36,3 +36,5 @@ print("Sorted array:", arr)
 #Best Case	     O(n + k)	       Counting and reconstructing are linear operations.
 #Average Case	 O(n + k)	       n for counting, k for output reconstruction.
 #Worst Case	     O(n + k)	       Still O(n + k) because it depends on input range.
+
+# Counting Sort:     O(n + k) (Requires arrays for counts and output)
